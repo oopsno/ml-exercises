@@ -49,11 +49,12 @@ function process_dataset {
     fi
 }
 
-function main {
+function download_dataset {
     mkdir -p $BASE_DIR
     for id in $(seq 2 9) ; do
         process_dataset $id
     done
 }
 
-main
+download_dataset
+
