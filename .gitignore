@@ -133,3 +133,5 @@ $RECYCLE.BIN/
 ### ml-exerices ###
 build/
 .idea/
+dataset/exercise_*
+dataset/archives/
